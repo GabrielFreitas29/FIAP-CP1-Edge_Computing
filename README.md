@@ -10,7 +10,7 @@ O objetivo é medir a intensidade de luz no ambiente e indicar, em tempo real, s
 
 ## ⚙️ Funcionamento
 
-O sistema realiza a leitura da luminosidade através do sensor LDR e classifica o ambiente em três estados:
+O sistema realiza a leitura da luminosidade através do sensor LDR e classifica o ambiente em três fases:
 
 - 🟢 **Condição adequada**  
   LED verde aceso  
