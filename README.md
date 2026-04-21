@@ -1,6 +1,6 @@
 # 📊 Medição da luminosidade do ambiente
 
-## 📌 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto consiste no desenvolvimento de um sistema de monitoramento de luminosidade para a **Vinheria Agnello**, utilizando a plataforma Arduino em conjunto com um sensor LDR (Light Dependent Resistor).
 
@@ -8,7 +8,7 @@ O objetivo é medir a intensidade de luz no ambiente e indicar, em tempo real, s
 
 ---
 
-## ⚙️ Funcionamento
+## Funcionamento
 
 O sistema realiza a leitura da luminosidade através do sensor LDR e classifica o ambiente em três fases:
 
@@ -26,7 +26,7 @@ Os limites de luminosidade podem ser ajustados diretamente no código.
 
 ---
 
-## 🧰 Componentes Utilizados
+## Componentes Utilizados
 
 - Arduino (Uno, Nano ou similar)
 - Sensor LDR
@@ -38,47 +38,26 @@ Os limites de luminosidade podem ser ajustados diretamente no código.
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 - Arduino IDE instalada  
-- Bibliotecas padrão do Arduino (nenhuma biblioteca externa necessária)
 
 ---
 
-## 🔌 Montagem do Circuito
+## Montagem do Circuito
 
 ### Conexões básicas:
 
-- LDR em divisor de tensão → entrada analógica (ex: A0)
-- LED verde → pino digital
-- LED amarelo → pino digital
-- LED vermelho → pino digital
-- Buzzer → pino digital
-
-> Os pinos podem ser alterados conforme o código.
+AINDA PENDENTE
 
 ---
 
-## 🚀 Como Reproduzir o Projeto
+## Como Reproduzir o Projeto
 
 1. Instale a Arduino IDE
 2. Conecte o Arduino ao computador via USB
-3. Monte o circuito conforme descrito
+3. Monte o circuito conforme descrito no vídeo
 4. Abra o código do projeto na IDE
 5. Selecione a placa e a porta correta
 6. Faça o upload do código
 7. Observe os LEDs e o buzzer reagindo à luminosidade
-
----
-
-## 🧪 Testes
-
-- Cubra o sensor LDR → simula baixa luminosidade  
-- Exponha à luz → simula alta luminosidade  
-- Verifique se os estados (verde, amarelo e vermelho) estão corretos  
-
----
-
-## 🎯 Objetivo
-
-Garantir que o ambiente da vinheria mantenha níveis adequados de luminosidade, evitando danos à qualidade dos vinhos.
