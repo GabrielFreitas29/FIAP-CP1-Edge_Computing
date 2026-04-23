@@ -43,21 +43,21 @@ Os limites de luminosidade são definidos no código e podem ser ajustados confo
 
 ### Conexões:
 
-- LDR:
+- **LDR:**
   - Um lado no 5V  
   - Outro lado no A0 e no resistor de 10kΩ  
   - O resistor vai para o GND  
 
-- LED Verde:
+- **LED Verde:**
   - Pino 10 → resistor → LED → GND  
 
-- LED Amarelo:
+- **LED Amarelo:**
   - Pino 11 → resistor → LED → GND  
 
-- LED Vermelho:
+- **LED Vermelho:**
   - Pino 12 → resistor → LED → GND  
 
-- Buzzer:
+- **Buzzer:**
   - Pino 8 → positivo  
   - GND → negativo  
 
@@ -78,6 +78,20 @@ Os limites de luminosidade são definidos no código e podem ser ajustados confo
 5. Selecione a placa (Arduino Uno) e a porta correta  
 6. Faça o upload do código  
 7. Observe os LEDs e o buzzer reagindo à luminosidade  
+
+---
+
+## 🔗 Simulação no Tinkercad
+
+https://www.tinkercad.com/things/a6Kkqbhf3eS-monitoramento-vinheira?sharecode=eC05ODI3YGTU5_Qs6p3BFJe7yhQFRCd8a08SgBKI6eI    
+
+---
+
+## 🔗 Repositório
+
+O código-fonte completo e os arquivos do projeto estão disponíveis em:
+
+https://github.com/GabrielFreitas29/FIAP-CP1-Edge_Computing
 
 ---
 
